@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+ 
+# macOS
+.DS_Store
+ 
+# Project-specific: raw/processed dataset (too large to commit)
+data_raw/
+data/
+ 
+# Project-specific: trained model weights (too large to commit)
+*.pth
